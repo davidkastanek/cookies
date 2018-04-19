@@ -1,0 +1,34 @@
+{
+    "name": "gutter/cookies",
+    "type": "library",
+    "description": "Communication between PHP Sessions and browser cookies.",
+    "keywords": ["nette", "cookies"],
+    "authors": [
+        {
+            "name": "David Kaštánek",
+            "email": "kastanekdavid@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "kastanekdavid@gmail.com",
+        "issues": "https://github.com/kastanekdavid/cookies/issues"
+    },
+    "require": {
+        "nette/http": "^2.4",
+        "nette/di": "^2.4"
+    },
+    "require-dev": {
+        "tracy/tracy": "^2.4",
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+		"psr-4": {
+			"Gutter\\Cookies\\": "src/"
+		}
+	},
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    }
+}
